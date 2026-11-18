@@ -1,0 +1,22 @@
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets & Environment Files (NEVER commit real credentials!)
+.env
+.env.*
+!.env.example
+
+# Local SQLite Runtime Databases (Memory & Durable Checkpoints)
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
